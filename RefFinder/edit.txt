@@ -1,0 +1,5 @@
+this is my code. say for example i want to search "environment marine"
+i will be getting all docs where environment col has value marine.
+now if i search "environment not marine" i want it to return all docs where environment does not have marine value.
+another example : "marine environment and solenoid valves not brass" . while searching this i want all docs where environment col is marine and solenoid valves col has any other value other than brass.
+make this negation search logic for  negative_indicators = ["without", "not", "non", "no", "none"]
